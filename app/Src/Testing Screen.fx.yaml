@@ -1,6 +1,7 @@
 "'Testing Screen' As screen":
     Fill: =RGBA(255,255,255,1)
     LoadingSpinnerColor: =RGBA(211, 66, 9, 1)
+    OnVisible: =Reset(txtName);
 
     Label2 As label:
         Align: =Align.Center
@@ -30,7 +31,7 @@
         Y: =208
         ZIndex: =2
 
-    TextInput1 As text:
+    txtName As text:
         BorderColor: =RGBA(39, 113, 194, 1)
         BorderThickness: =2
         Color: =RGBA(0, 0, 0, 1)
