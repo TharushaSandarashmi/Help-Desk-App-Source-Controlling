@@ -16,3 +16,53 @@
         Width: =640
         ZIndex: =1
 
+    Label3 As label:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: |-
+            ="Name :"
+        Width: =117
+        X: =26
+        Y: =208
+        ZIndex: =2
+
+    TextInput1 As text:
+        BorderColor: =RGBA(39, 113, 194, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Height: =42
+        HintText: ="Enter Name here"
+        HoverBorderColor: =RGBA(131, 24, 75, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 211, 205, 1)
+        Size: =21
+        Width: =442
+        X: =170
+        Y: =208
+        ZIndex: =3
+
+    Button1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        Size: =24
+        Text: ="Submit"
+        Width: =280
+        X: =332
+        Y: =362
+        ZIndex: =4
+
